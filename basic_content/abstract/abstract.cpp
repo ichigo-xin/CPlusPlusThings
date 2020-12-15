@@ -23,5 +23,7 @@ public:
 int main(){
     B b;
     b.g();
+    A * a = new B();
+    a->f();
     return 0;
 }

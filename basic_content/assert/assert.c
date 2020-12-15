@@ -1,6 +1,7 @@
 #include <stdio.h> 
 #include <assert.h> 
 
+
 int main() 
 { 
     int x = 7; 
@@ -11,6 +12,8 @@ int main()
 
     // Programmer assumes x to be 7 in rest of the code 
     assert(x==7); 
+
+
 
     /* Rest of the code */
 

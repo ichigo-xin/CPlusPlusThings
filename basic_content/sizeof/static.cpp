@@ -12,8 +12,8 @@ using namespace std;
 class A
 {
     public:
-        char b;
-        virtual void fun() {};
+        int b;
+        //virtual void fun() {};
         static int c;
         static int d;
         static int f;
@@ -28,6 +28,8 @@ int main()
      * @brief 16  字节对齐、静态变量不影响类的大小、vptr指针=8
      */
     cout<<sizeof(A)<<endl; 
+	cout << sizeof(int) << endl;
+	system("pause");
 
     return 0;
 }

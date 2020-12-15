@@ -17,6 +17,8 @@ using namespace std;
 typedef void (*Fun)();
 
 
+
+
 /**
  * @brief 基类
  */
