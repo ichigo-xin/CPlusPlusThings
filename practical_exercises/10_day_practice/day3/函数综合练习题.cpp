@@ -7,6 +7,7 @@
 */
 #include<iostream>
 using namespace std;
+//用const修饰不能更改的全局变量
 const float PI=3.14159;
 const float FencePrice=35;
 const float ConcretePrice=20;
@@ -17,6 +18,7 @@ class Circle
         float radius;
     public:
         Circle(float r);
+        //const 写在方法后面，指的是传入函数的this指针是const的，在函数内部，修改函数成员的操作都是不被允许的
         float Circumference() const;
         float Area() const;
 };
