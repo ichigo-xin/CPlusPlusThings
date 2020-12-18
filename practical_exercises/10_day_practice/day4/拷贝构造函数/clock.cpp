@@ -1,5 +1,6 @@
 #include<iostream>
 #include"clock.h"
+#include <stdlib.h>
 using namespace std;
 Clock::Clock(int NewH,int NewM,int NewS)
 {
