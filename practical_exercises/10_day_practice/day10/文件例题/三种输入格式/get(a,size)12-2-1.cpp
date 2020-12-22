@@ -15,7 +15,7 @@ int main()
     //2.输入串长<size，输入串长<arraylength，把串全部输入，后面补‘\0’
     // char b[10];
 	// cin.get(b,20);
-	// cout<<b<<endl;//12345，此时数组内数据为‘12345'\0’
+	// cout<<b<<endl;//12345，此时数组内数据为‘12345'\0’ 
     // cout<<sizeof(b)<<endl;
     //3.输入串长>size，先截取size个字符，若还是大于arraylength，则输入前arraylength-1个字符，最后补充‘\0’
     // char c[5];
